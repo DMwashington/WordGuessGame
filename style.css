@@ -1,0 +1,79 @@
+body {
+    background-image: url(../images/1background.jpg);
+    font-family: 'Rokkitt', serif;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    margin: auto;
+    width: 80%;
+}
+
+#directions {
+    background-color: orange;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.game {
+    background-color:  black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 150%;
+    text-align: center;
+}
+
+#infoWrapper {
+    background-color: blue;
+    height: 400px;
+    min-width: 200px;
+    padding: 20px;
+    align-content: center;
+    border: 4px solid black;
+}
+
+#wordWrapper {
+    background-color: blue;
+    height: 400px;
+    padding: 20px;
+    min-width: 200px;
+    color: white;
+    border: 4px solid black;
+}
+
+#imageWrapper {
+    background-color: blue;
+    height: 400px;
+    padding: 20px;
+    min-width: 200px;
+    color: white;
+    border: 4px solid black;
+}
+
+.image {
+    width: 150px;
+
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
